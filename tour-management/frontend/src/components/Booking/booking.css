@@ -1,0 +1,112 @@
+.booking {
+    padding: 2rem;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(229,231,235);
+    position: sticky;
+    top: 80px;
+    background-color: black; /* Set background to black */
+    color: white; /* Set text color to white */
+}
+
+.booking__top h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: white; /* Ensure text color is white */
+}
+
+.booking__top h3 span {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: white; /* Ensure text color is white */
+}
+
+.booking__top span {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white; /* Ensure text color is white */
+}
+
+.booking__top span i {
+    color: var(--secondary-color);
+}
+
+.booking__top {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgb(229,231,235);
+}
+
+.booking__form {
+    padding-top: 2rem;
+    color: white; /* Ensure text color is white */
+}
+
+.booking__form h5 {
+    margin-bottom: 1rem;
+    color: white; /* Ensure text color is white */
+}
+
+.booking__form input {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color: black; /* Input text color */
+    font-size: 1rem;
+    border: none;
+    border-bottom: 1px solid rgb(229,231,235);
+    background-color: white; /* Input background color */
+}
+
+.booking__form input:focus {
+    outline: none;
+}
+
+.booking__info-form {
+    padding: 1rem;
+    border: 1px solid rgb(229,231,235);
+    background-color: black; /* Ensure form background is black */
+}
+
+.booking__bottom li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white; /* Ensure text color is white */
+    background-color: black; /* Ensure background is black */
+    border: none; /* Remove border */
+}
+
+.booking__bottom li h5,
+.booking__bottom li span {
+    font-size: 1rem;
+    color: white; /* Ensure text color is white */
+    font-weight: 500;
+    background-color: black; /* Ensure background is black */
+}
+
+.booking__bottom {
+    margin-top: 1rem;
+}
+
+.total h5,
+.total span {
+    color: white !important; /* Ensure text color is white */
+    font-weight: 700 !important;
+    font-size: 1.1rem !important;
+}
+
+/* Additional styling for ListGroup and ListGroupItem */
+.list-group-item {
+    background-color: black !important; /* Ensure background is black */
+    color: white !important; /* Ensure text color is white */
+    border: none;
+}
+
+button.btn.primary__btn {
+    background-color: white; /* Ensure button background is white */
+    color: black; /* Ensure button text color is black */
+}
+
+button.btn.primary__btn:hover {
+    background-color: grey; /* Button hover background */
+    color: black; /* Button hover text color */
+}

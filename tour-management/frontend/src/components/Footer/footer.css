@@ -1,0 +1,72 @@
+:root {
+    --primary-color: rgb(166, 107, 153);
+    --secondary-color: rgb(240, 83, 193);
+    --heading-color: #ffffff;
+    --text-color: #abb4c7;
+    --font-name: "Montserrat", sans-serif;
+    --subtitle-font-name: "Island Moments", cursive;
+  }
+  
+  .footer {
+    background-color: #000000;
+    padding-top: 70px;
+    padding-bottom: 30px;
+  }
+  
+  .footer .logo img {
+    width: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .footer .logo p {
+    color: var(--text-color);
+  }
+  
+  .social__links span a {
+    text-decoration: none;
+    color: var(--heading-color);
+    font-size: 1.2rem;
+  }
+  
+  .footer__link-title {
+    color: var(--heading-color);
+    margin-bottom: 1rem;
+  }
+  
+  .footer__quick-links {
+    background: #000000;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: rgba(255, 0, 234, 0.283) 0px 18px 50px -10px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .footer__quick-links li {
+    margin-bottom: 0.5rem;
+    background: #000000;
+  }
+  
+  .footer__quick-links li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.1rem;
+  }
+  
+  .footer__quick-links h6 {
+    color: #ffffff;
+  }
+  
+  .footer__quick-links h6 span i {
+    color: var(--secondary-color);
+    font-size: 1.1rem;
+  }
+  
+  .footer__quick-links p {
+    color: #d0caca;
+  }
+  
+  .copyright {
+    color: var(--text-color);
+    font-size: 1rem;
+  }
+  
