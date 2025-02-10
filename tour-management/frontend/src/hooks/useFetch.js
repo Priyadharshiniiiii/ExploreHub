@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const useFetch = ("https://explorehub-backend.onrender.com") => {
+const useFetch = (url) => {
     const [data,setData] = useState([])
     const [error,setError] = useState(null)
     const [loading,setLoading] = useState(false)
@@ -9,7 +9,7 @@ const useFetch = ("https://explorehub-backend.onrender.com") => {
         const fetchData = async() => {
             setLoading(true)
             try{
-                const res = await fetch("https://explorehub-backend.onrender.com")
+                const res = await fetch(url)
                 if(!res.ok){
                     setError('failed to fetch')
                 }
@@ -23,7 +23,7 @@ const useFetch = ("https://explorehub-backend.onrender.com") => {
             }
         };
         fetchData()
-    }, ["https://explorehub-backend.onrender.com"]);
+    }, [url]);
 
     return {
         data,
