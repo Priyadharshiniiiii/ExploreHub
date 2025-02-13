@@ -9,7 +9,7 @@ const useFetch = (url) => {
         const fetchData = async() => {
             setLoading(true)
             try{
-                const res = await fetch(`https://explorehub-backend.onrender.com`)
+                const res = await fetch(url)
                 if(!res.ok){
                     setError('failed to fetch')
                 }
